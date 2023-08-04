@@ -8,7 +8,7 @@ import android.widget.BaseAdapter
 import android.widget.TextView
 
 //대표 생성자 정의
-class TodoAdapter constructor(var context: Context, var layoutRes:Int, var list:List<Todo>) : BaseAdapter() {
+class TodoAdapter constructor(var context:Context, var layoutRes:Int , var list:List<Todo>) : BaseAdapter() {
 
     //전체 모델의 개수 리턴
     override fun getCount(): Int {
